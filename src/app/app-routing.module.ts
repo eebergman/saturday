@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'sponsors', loadChildren: './sponsors/sponsors.module#SponsorsModule' },
   { path: 'volunteers', loadChildren: './volunteers/volunteers.module#VolunteersModule' },
   { path: 'login', loadChildren: './login/login.module#LoginModule' },
+  { path: 'logout', loadChildren: './logout/logout.module#LogoutModule' },
   { path: '', loadChildren: './home/home.module#HomeModule', pathMatch: 'full' }
 ];
 

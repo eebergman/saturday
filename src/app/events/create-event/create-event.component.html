@@ -1,0 +1,19 @@
+<h2>
+  New Event
+</h2>
+<form [formGroup]="eventForm" novalidate>
+  <label>Name:
+    <input formControlName="name" #name>
+    <div *ngIf="name.touched && name.invalid">
+      Name is required
+    </div>
+  </label>
+
+  <label>Date:
+    <input class="form-control" formControlName="date">
+  </label>
+
+  <label>Link:
+    <input class="form-control" formControlName="link">
+  </label>
+</form>

@@ -1,3 +1,10 @@
 export const environment = {
-  production: true
+  production: true,
+  angularfireConfig: {
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '',
+    storageBucket: '',
+    messagingSenderId: ''
+  }
 };
